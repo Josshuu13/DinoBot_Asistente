@@ -32,10 +32,11 @@ Python · spaCy · NLTK · scikit-learn · pandas · NumPy · Flet · JSON knowl
 ```bash
 pip install -r requirements.txt
 python -m spacy download es_core_news_md
+python -c "import nltk; [nltk.download(x) for x in ('punkt', 'punkt_tab', 'stopwords')]"
 python main.py
 ```
 
-On Windows, just double-click `iniciar.bat`: it creates a virtual environment, installs the dependencies and the spaCy Spanish model the first time, and then launches the app.
+On Windows, just double-click `iniciar.bat`: it creates a virtual environment, installs the dependencies, the spaCy Spanish model and the NLTK data the first time, and then launches the app.
 
 ## Project structure
 
