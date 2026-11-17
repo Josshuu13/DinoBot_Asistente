@@ -1,0 +1,137 @@
+{
+  "enfermedades": {
+    "gripe": {
+      "sintomas": [
+        "fiebre",
+        "tos",
+        "dolor_cabeza",
+        "cansancio",
+        "dolor_muscular"
+      ]
+    },
+    "resfriado": {
+      "sintomas": [
+        "tos",
+        "mocos",
+        "dolor_garganta",
+        "estornudos",
+        "ojos_llorosos"
+      ]
+    },
+    "neumonia": {
+      "sintomas": [
+        "fiebre",
+        "tos_fuerte",
+        "dificultad_respirar",
+        "dolor_pecho",
+        "escalofrios"
+      ]
+    },
+    "amigdalitis": {
+      "sintomas": [
+        "dolor_garganta",
+        "fiebre",
+        "inflamacion_garganta",
+        "dificultad_tragar"
+      ]
+    },
+    "gastroenteritis": {
+      "sintomas": [
+        "dolor_estomago",
+        "nauseas",
+        "vomito",
+        "diarrea",
+        "fiebre"
+      ]
+    },
+    "migrana": {
+      "sintomas": [
+        "dolor_cabeza_fuerte",
+        "sensibilidad_luz",
+        "nauseas",
+        "mareo"
+      ]
+    },
+    "alergia": {
+      "sintomas": [
+        "estornudos",
+        "picazon_ojos",
+        "goteo_nasal",
+        "erupcion_piel"
+      ]
+    },
+    "covid": {
+      "sintomas": [
+        "fiebre",
+        "tos_seca",
+        "cansancio",
+        "perdida_olfato",
+        "perdida_gusto"
+      ]
+    }
+  },
+
+  "sintomas": {
+    "fiebre": ["fiebre", "calentura", "temperatura alta", "me siento ardiendo", "cuerpo cortado"],
+    "tos": ["tos", "tosiendo", "toser", "carraspera"],
+    "tos_fuerte": ["tos muy fuerte", "tos con flemas", "tos incontrolable"],
+    "tos_seca": ["tos seca", "tos sin flemas"],
+    "dolor_cabeza": ["dolor de cabeza", "me duele la cabeza", "jaqueca", "pesadez en la cabeza"],
+    "dolor_cabeza_fuerte": ["me estalla la cabeza", "migraña", "dolor de cabeza insoportable", "punzadas en la cabeza", "me duele mucho la cabeza"],
+    "cansancio": ["cansancio", "fatiga", "me siento debil", "agotado", "sin energia"],
+    "dolor_muscular": ["dolor de cuerpo", "me duele todo", "dolor muscular"],
+    "mocos": ["mocos", "congestion nasal", "nariz tapada", "secreción nasal", "moco"],
+    "goteo_nasal": ["me escurre la nariz", "goteo nasal", "rinitis"],
+    "dolor_garganta": ["dolor garganta", "me arde la garganta", "molestia al tragar", "raspera"],
+    "dificultad_tragar": ["no puedo pasar comida", "me duele al comer", "disfagia", "no puedo tragar", "me cuesta tragar"],
+    "inflamacion_garganta": ["garganta inflamada", "roja la garganta", "amigdalas hinchadas"],
+    "estornudos": ["estornudos", "estoy estornudando", "no paro de estornudar"],
+    "dificultad_respirar": ["falta el aire", "no puedo respirar bien", "ahogo", "siento que me asfixio"],
+    "dolor_pecho": ["dolor de pecho", "presion en el pecho", "dolor al respirar", "piquetes en el pecho"],
+    "escalofrios": ["tengo frio", "escalofrios", "tiritando"],
+    "dolor_estomago": ["dolor de estomago", "me duele la panza", "dolor abdominal", "retortijones", "colico"],
+    "nauseas": ["nauseas", "ganas de vomitar", "asco", "revoltura"],
+    "vomito": ["vomito", "estoy vomitando", "devuelvo la comida", "emesis"],
+    "diarrea": ["diarrea", "estomago suelto", "cagalera", "ir mucho al baño"],
+    "sensibilidad_luz": ["me molesta la luz", "fotofobia", "no aguanto el sol", "sensibilidad a la luz"],
+    "mareo": ["mareado", "me da vueltas todo", "vertigo"],
+    "picazon_ojos": ["me pican los ojos", "comezon en los ojos", "ojos rojos"],
+    "ojos_llorosos": ["ojos llorosos", "me lloran los ojos"],
+    "erupcion_piel": ["ronchas", "salpullido", "granitos", "comezon en la piel"],
+    "perdida_olfato": ["no huelo nada", "perdi el olfato", "anosmia"],
+    "perdida_gusto": ["la comida no me sabe", "perdi el gusto", "no tengo sabor"]
+  },
+
+  "palabras_clave": [
+    "sintomas",
+    "diagnostico",
+    "enfermedad",
+    "me siento mal",
+    "me duele",
+    "tengo dolor",
+    "siento",
+    "padezco",
+    "creo que tengo",
+    "duele",
+    "dolor",
+    "cabeza",
+    "fiebre",
+    "tos",
+    "garganta",
+    "estomago",
+    "mareo",
+    "nauseas",
+    "vomito",
+    "diarrea",
+    "enfermo",
+    "enferma"
+  ],
+
+  "request": [
+    "Que mal que sientas eso. Basado en tus síntomas, podría ser: ",
+    "Lamento escuchar que te sientes mal, podrías tener: ",
+    "Analizando tus síntomas, hay probabilidad de que sea: ",
+    "Estos síntomas suelen coincidir con el siguiente cuadro: ",
+    "Por favor cuídate. Según lo que describes, parece ser: "
+  ]
+}
